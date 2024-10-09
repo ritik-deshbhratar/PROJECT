@@ -1,0 +1,43 @@
+/*its about pseudo elemts  */
+
+h1{
+    color: red;
+
+}
+
+p::before{
+    position: absolute;
+    top:50%;
+    content: "hey>";
+    width: 100%;
+    height: 3px;
+    background-color:black;
+   
+}
+p{
+    position: relative;
+    width: fit-content; 
+    background-color: yellow;
+}
+p::after{
+    position: absolute;
+    top:50%;
+    content: "end>";
+    width: 100%;
+    height: 3px;
+    background-color:black;
+}
+
+h3::first-letter {
+    background-color: red;
+}
+   
+h3::first-line{
+    background-color:hotpink;
+} 
+
+h3::selection{
+    background-color: darkgreen;
+   
+    
+}

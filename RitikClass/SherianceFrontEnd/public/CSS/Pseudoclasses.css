@@ -1,0 +1,23 @@
+body{
+    background-color: darkblue;
+}
+
+h1:hover{
+    background-color: red;
+    color: thistle;
+}
+ #box:hover{
+    background-color: green;
+ }
+
+ a:active{
+    background-color: darkred;
+ }
+#text:focus{
+    background-color: tomato;
+}
+
+p:nth-child(3N){
+   color: red;
+
+}

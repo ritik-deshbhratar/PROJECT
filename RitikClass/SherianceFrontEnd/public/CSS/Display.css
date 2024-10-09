@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    display: block;
+    background-color: rgb(22, 222, 32);
+    width: 500px;
+}
+
+a {
+    background-color: wheat;
+    display: inline;
+}
+
+#car1 {
+    width: 100px;
+    height: 140px;
+    background-color: rgb(0, 216, 0);
+}
+
+#car2 { 
+    width: 80px;
+    height: 120px;
+    background-color: blueviolet;
+}
+
+#car3 {
+    width: 105px;
+    height: 90px;
+    background-color: rgb(0, 4, 236);
+}
+
+#box {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    position: fixed;
+    
+    /* Added this to make the cube relative to box */
+}
+
+#cube {
+    position: absolute;
+    left: 40px;
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+}
+
+body{
+    height: 3000px;
+} 
